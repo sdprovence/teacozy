@@ -8,6 +8,7 @@ body {
   opacity: 0.9;
 }
 
+/* Fixed Header */
 header {
   display: flex;
   position: fixed;
@@ -48,11 +49,13 @@ h4 {
   font-weight: bold;
 }
 
+/* Section padding to allow for header and space for links */
 section {
   margin-top: 69px;
   padding-top: 69px;
 }
 
+/* Our Mission Section */
 section.mission {
   display: flex;
   flex-direction: column;
@@ -71,6 +74,7 @@ div.mission-text {
   background-color: black;
 }
 
+/* Feature Tea Section */
 section.feature {
   display: block;
   width: 1050px;
@@ -95,6 +99,7 @@ div.tea img {
   margin: 10px auto;
 }
 
+/* Locations section */
 section.locations {
   text-align: center;
   background-image: url("../img-locations-background.jpg");
@@ -127,13 +132,20 @@ div.store h3 {
   padding: 15px;
 }
 
+/* Title and contact info at end of page */
 footer div.cozy-foot {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px
+  align-items: center;
+  height: 200px;
+  margin-top: 10px;
 }
 
+.cozy-foot h5 {
+  margin: 15  px auto;
+}
+/* Copyright section */
 #copyright {
   margin-left: 20px;
   text-align: left;
