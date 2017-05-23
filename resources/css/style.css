@@ -36,6 +36,8 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2,
@@ -43,6 +45,12 @@ h3,
 h4 {
   margin: 0;
   padding: 10px;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 69px;
+  padding-top: 69px;
 }
 
 section.mission {
@@ -65,7 +73,7 @@ div.mission-text {
 
 section.feature {
   display: block;
-  width: 1200px;
+  width: 1050px;
 }
 
 div.tea-group {
@@ -77,7 +85,7 @@ div.tea-group {
 div.tea {
   display: inline-block;
   width: 300px;
-  margin: 0 50px;
+  margin: 0 25px;
   font-weight: bold;
 }
 
@@ -89,5 +97,32 @@ div.tea img {
 
 section.locations {
   text-align: center;
+  background-image: url("../img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
 
+section.locations h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+div.store-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  background-color: black;
+  margin: 5px 20px;
+  opacity: 1;
+}
+
+div.store h3 {
+  padding: 10px;
 }
